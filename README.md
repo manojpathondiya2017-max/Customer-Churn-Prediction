@@ -52,3 +52,17 @@ The model was evaluated on a held-out test set. Further validation on new custom
 - Validate the classification threshold using validation data.
 - Test the model on new customer data.
 - Develop a simple interface for churn predictions.
+## Model Evaluation
+
+### Confusion Matrix
+
+The confusion matrix shows how correctly the model predicts customers who churn and customers who stay.
+
+![Confusion Matrix](confusion_matrix.png)
+
+### ROC Curve
+
+The ROC curve illustrates the model's ability to distinguish between customers who churn and those who do not.
+
+![ROC Curve](roc_curve.png)
+
